@@ -3,21 +3,32 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "@emailjs/browser": "^3.11.0",
-    "react-intersection-observer": "^9.5.3",
+    "react": "^18.2.0",
+    "react-countup": "^6.5.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "react-scroll": "^1.9.0",
-    "react-countup": "^6.5.0"
+    "react-intersection-observer": "^9.5.3",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "sonarqube": "sonar-scanner"
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version"
+    ]
+  },
+  "devDependencies": {
+    "sonar-scanner": "^3.1.0"
   }
 }

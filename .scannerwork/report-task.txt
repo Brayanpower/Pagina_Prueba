@@ -1,0 +1,6 @@
+projectKey=Saniplagas
+serverUrl=http://localhost:9000
+serverVersion=26.6.0.123539
+dashboardUrl=http://localhost:9000/dashboard?id=Saniplagas
+ceTaskId=ca22d979-aeb7-4841-a84c-865afc28ca07
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ca22d979-aeb7-4841-a84c-865afc28ca07
